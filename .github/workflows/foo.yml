@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Watermelon HTTP client
-      uses: CamiloGarciaLaRotta/watermelon-http-client@v1.5
-      with:
-        url: 'tx.lese.rocks:8080'
-        method: post
-        data: '{"to": 1535487308, "message": "GitHub Actions message."}'
+        uses: CamiloGarciaLaRotta/watermelon-http-client@v1.5
+        with:
+          url: 'tx.lese.rocks:8080'
+          method: post
+          data: '{"to": 1535487308, "message": "GitHub Actions message."}'
