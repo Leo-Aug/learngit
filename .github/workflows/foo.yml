@@ -9,6 +9,6 @@ jobs:
       - name: Watermelon HTTP client
         uses: CamiloGarciaLaRotta/watermelon-http-client@v1.5
         with:
-          url: 'tx.lese.rocks:8080'
+          url: 'tx.lese.rocks:8080/httpforward'
           method: post
           data: '{"to": 1535487308, "message": "GitHub Actions message."}'
