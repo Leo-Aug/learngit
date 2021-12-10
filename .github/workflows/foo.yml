@@ -12,4 +12,4 @@ jobs:
           url: 'http://tx.lese.rocks:8080/httpforward'
           method: post
           headers: '{"Content-Type": "application/json"}'
-          data: '{"to": 1535487308, "message": "GitHub Actions message."}'
+          data: '{"to": 1535487308, "message": "A GitHub Actions message."}'
